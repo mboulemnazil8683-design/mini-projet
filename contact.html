@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us</title>
+    <style>
+         body {
+            margin: 0;
+            
+            background: color #fdf8f1;;
+        }
+        header{
+            background-color: #f5e7d3;
+            padding:20px;
+        }
+        h1{
+            color:brown
+        }
+         nav a{
+                text-decoration: none;
+                color: brown;
+                margin-right: 20px;
+                font-size: 18px;
+            }
+        nav a :hover{
+            color:black
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            gap:20px
+        }
+        input,textarea{
+            padding: 15px;
+            border: 1px solid brown;
+            border-radius: 10px;
+
+        }
+        footer{
+            background-color:#f5e7d3;
+            color:brown;
+            text-align: center;
+            justify-content: space-between;
+            padding:5%;
+            justify-items: auto;
+            bottom:0;
+            left: 0;
+            right: 0;
+            margin: -4px;
+            margin-right: -4px;
+            margin-bottom: -8px;
+            margin-left: -4px;
+            margin-top: 60px;
+            
+
+
+        }
+    </style>
+
+</head>
+<script src="script.js"></script>
+<body>
+    <header>
+        <h1>CONTACT US</h1>
+
+        <nav><a href="flour.html">Home</a>
+            <a href="profil.html">profil</a>
+            <a href="selection.html">healthside selection</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your message"></textarea>
+            <button type="submit">
+                Send
+            </button>
+
+        </form>
+    </section>
+    <footer>
+        <p>Follow us on:</p>
+        <div class="socials">
+            <a href="https://Instagram.com">Instagram
+            </a><br><br>
+            <a href="https://Tik TOk.com">Tik TOk
+
+            </a><br><br>
+        </div>
+    </footer>
+    
+</body>
+</html>

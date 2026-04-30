@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>SELECTION</title>
+    <style>
+        body {
+            margin: 0;
+            
+            background: color #fdf8f1;;
+        }
+        header{
+            background-color: #f5e7d3;
+            padding:20px;
+        }
+        h1{
+            color:brown
+        }
+        nav a{
+                text-decoration: none;
+                color: brown;
+                margin-right: 20px;
+                font-size: 18px;
+            }
+        nav a :hover{
+            color:black
+        }
+        .products{
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+
+        }
+        .card{
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+        
+
+        }
+        .card img{
+            width: 100%;
+            max-height: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        button{
+            background-color: brown;
+            color:aliceblue;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<script src="script.js"></script>
+<body>
+    <header>
+        <h1>HEALTHSIDE SELECTION</h1>
+        <nav>
+            <a href="flour.html">Home</a>
+            <a href="profil.html">profil</a>
+            <a href="selection.html">healthside selection</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="card">
+            <img src="images/oatflower.jpg" alt="" >
+            <h2>Oat flour </h2>
+            <p>weight : 500g</p>
+            <p>Calories : 1830 kcal</p>
+            <p>Gluten free</p>
+            <p>Price : 43.90 Dhs</p>
+            <button onclick="showmessage()">
+                Buy it Now
+            </button>
+        </div> 
+        
+         <div class="card">
+            <img src="images/coconut flour.jpg" alt="" >
+            <h2>Cocunat flour </h2>
+            <p>weight : 500g</p>
+            <p>Calories : 1700 kcal</p>
+            <p>healthy and rich</p>
+            <p>Price : 72.90 Dhs</p>
+            <button onclick="showmessage()">
+                Buy it Now
+            </button>
+        </div>    
+
+         <div class="card">
+            <img src="images/Cold Wheat.jpg" alt="" >
+            <h2>Wheat flour </h2>
+            <p>weight : 500g</p>
+            <p>Calories : 1690 kcal</p>
+            <p>healthy and rich</p>
+            <p>Price : 49.00 Dhs</p>
+            <button onclick="showmessage()">
+                Buy it Now
+            </button>
+        </div>    
+
+         <div class="card">
+            <img src="images/rice flour.jpg" alt="" >
+            <h2>Rice flour </h2>
+            <p>weight : 500g</p>
+            <p>Calories : 1800 kcal</p>
+            <p>Gluten free</p>
+            <p>Price : 64.90 Dhs</p>
+            <button onclick="showmessage()">
+                Buy it Now
+            </button>
+        </div>    
+    </section>
+
+    
+</body>
+</html>

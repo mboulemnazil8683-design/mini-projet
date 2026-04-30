@@ -7,3 +7,8 @@ function Togglemenu(){
         d.style.display==="block"
     }
 }
+
+function showmessage(){
+    alert("Product added successfully!");
+}
+
